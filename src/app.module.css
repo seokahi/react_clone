@@ -1,0 +1,27 @@
+.container {
+    background-color:rgba(34, 33, 33, 0.993);
+    padding:20px;
+    color:white;
+    padding-left:100px;
+    font-size: large;
+}
+
+.tit:first-child {
+    margin-right: 80px;
+    color:rgb(59, 192, 233);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.tit:first-child::before {
+    content:"";
+    display: inline-block;
+    line-height: bottom;
+    margin-right:15px;
+    width:22px;
+    height: 20px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K);
+}
+.tit:not(:first-child) {
+    margin:20px;
+}

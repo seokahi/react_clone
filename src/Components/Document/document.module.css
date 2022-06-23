@@ -1,0 +1,24 @@
+.container {
+    margin:100px;
+}
+
+.tit {
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.def {
+    font-size:20px;
+    font-weight: 100;
+    color:rgba(122, 122, 122, 0.904);
+    margin-bottom: 30px;
+}
+
+.RecDef {
+    font-size:18px;
+    font-weight: 100;
+}
+.strong {
+    font-weight: 700;
+}
